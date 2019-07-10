@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>公告</title>
+    <style type="text/css">
+        body{
+            background-image: url("yu2.png");
+        }
+        .sj{
+            font-size: 50px;
+            color: coral;
+            text-align: center;
+        }
+        .gg{
+            font-size: 30px;
+            color: lavender;
+            text-align: center;
+        }
+        .gg:hover{
+            color: azure;
+            font-size: 35px;
+            transition-delay: 100ms;
+            transition-duration: 200ms;
+        }
+        .fh{
+            text-align: left;
+            font-size: 30px;
+            color: whitesmoke;
+        }
+        .fh:hover{
+            transition-delay: 50ms;
+            transition-duration: 500ms;
+            color: coral;
+        }
+    </style>
+</head>
+<body>
+<a href="index.html" class="fh"><h1 class="fh">回到首页</h1></a>
+<p class="sj">——打开时间——</p>
+<script type="text/javascript">
+    var myDate = new Date();
+    document.write('<h1 class="sj">'+myDate.toLocaleString()+'</h1>>')
+</script>
+<p class="sj">————————————————</p>
+<p class="gg">新的可游览内容——新的一天</p>
+<p class="gg">正在制作中</p>
+</body>
+</html>
